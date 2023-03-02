@@ -9,8 +9,17 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SureTask"
+        android:theme="@style/Theme.TruthAndDare"
         tools:targetApi="31">
+        <activity
+            android:name=".TruthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DareActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
